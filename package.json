@@ -1,0 +1,11 @@
+{
+  "name": "com.gilzoide.back-button-stack",
+  "displayName": "Back Button Stack",
+  "version": "1.0.0-preview1",
+  "description": "Easily manage a stack of objects that respond to the ESC button / Android back button, so that only the top object handles it.",
+  "homepage": "https://github.com/gilzoide/unity-back-button-stack",
+  "license": "Unlicense",
+  "author": {
+    "name": "Gil Barbosa Reis"
+  }
+}
