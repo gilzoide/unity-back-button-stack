@@ -1,0 +1,16 @@
+{
+    "name": "Gilzoide.BackButtonStack.Samples.PopupStack",
+    "rootNamespace": "",
+    "references": [
+        "Gilzoide.BackButtonStack"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
