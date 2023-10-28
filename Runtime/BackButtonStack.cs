@@ -70,8 +70,12 @@ namespace Gilzoide.BackButtonStack
         /// <param name="handler">ESC/Back button handler</param>
         public void RemoveButtonHandler(IBackButtonHandler handler)
         {
-            _backButtonHandlers.Remove(handler);
-            enabled = _backButtonHandlers.Count > 0;
+            int index = _backButtonHandlers.LastIndexOf(handler);
+            if (index >= 0)
+            {
+                _backButtonHandlers.RemoveAt(index);
+                enabled = _backButtonHandlers.Count > 0;
+            }
         }
     }
 }
