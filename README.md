@@ -14,6 +14,6 @@ Check out the [Popup Stack](Samples~/PopupStack) sample scene for some usage exa
 ## How to install
 - Install using the [Unity Package Manager](https://docs.unity3d.com/Manual/upm-ui-giturl.html) with the following URL:
   ```
-  https://github.com/gilzoide/unity-back-button-stack.git
+  https://github.com/gilzoide/unity-back-button-stack.git#1.0.0-preview1
   ```
 - Clone this repository or download a snapshot of it directly inside your project's `Assets` or `Packages` folder.
