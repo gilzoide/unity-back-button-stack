@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -34,7 +35,14 @@ namespace Gilzoide.BackButtonStack
 
         public void AddButtonHandler(IBackButtonHandler handler)
         {
-            Debug.Assert(!_backButtonHandlers.Contains(handler), "Trying to add back button handler again, which is not permitted.");
+            if (handler == null)
+            {
+                throw new ArgumentNullException(nameof(handler));
+            }
+            if (_backButtonHandlers.Contains(handler))
+            {
+                throw new InvalidOperationException("Trying to add an object that is already registered.");
+            }
             _backButtonHandlers.Add(handler);
             enabled = true;
         }
