@@ -7,5 +7,12 @@
   "license": "Unlicense",
   "author": {
     "name": "Gil Barbosa Reis"
-  }
+  },
+  "samples": [
+    {
+      "displayName": "Popup Stack",
+      "description": "Open a stack of popups and close them using the back button, respecting the stack.",
+      "path": "Samples~/PopupStack"
+    }
+  ]
 }
