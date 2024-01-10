@@ -1,4 +1,6 @@
 # Back Button Stack
+[![openupm](https://img.shields.io/npm/v/com.gilzoide.back-button-stack?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.gilzoide.back-button-stack/)
+
 Easily manage a stack of objects that respond to the ESC button / Android Back button in Unity, so that only the top object handles the event.
 
 Check out the [Popup Stack](Samples~/PopupStack) sample scene for some usage example.
@@ -13,6 +15,10 @@ Check out the [Popup Stack](Samples~/PopupStack) sample scene for some usage exa
 
 ## How to install
 Either:
+- Use the [openupm registry](https://openupm.com/) and install this package using the [openupm-cli](https://github.com/openupm/openupm-cli):
+  ```
+  openupm add com.gilzoide.back-button-stack
+  ```
 - Install using the [Unity Package Manager](https://docs.unity3d.com/Manual/upm-ui-giturl.html) with the following URL:
   ```
   https://github.com/gilzoide/unity-back-button-stack.git#1.0.0-preview1
